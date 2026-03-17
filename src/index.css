@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-crimson: #A41034;
+  --color-mid-gray: #808285;
+  --color-light-gray: #B6B6B6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: white;
+  }
+  @page {
+    size: A4;
+    margin: 0;
+  }
+}
