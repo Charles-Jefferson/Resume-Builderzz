@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { FileDown, Eye, EyeOff, RotateCcw } from 'lucide-react'
+import { useNavigate } from 'react-router-dom'
+import { FileDown, Eye, EyeOff, RotateCcw, ChevronLeft } from 'lucide-react'
 import { useResumeStore } from '@/hooks/useResumeStore'
 import { PersonalInfoStep } from '@/components/form/PersonalInfoStep'
 import { ExperienceStep } from '@/components/form/ExperienceStep'
@@ -20,6 +21,7 @@ const STEPS = [
 ]
 
 export default function App() {
+  const navigate = useNavigate()
   const [activeStep, setActiveStep] = useState(1)
   const [showPreviewMobile, setShowPreviewMobile] = useState(false)
   const { state, setPersonal, addExperience, updateExperience, removeExperience, reorderExperience,
@@ -45,6 +47,13 @@ export default function App() {
       {/* Header */}
       <header className="no-print bg-white border-b border-gray-200 sticky top-0 z-40 shadow-sm">
         <div className="max-w-screen-xl mx-auto px-4 h-14 flex items-center gap-4">
+          <button
+            onClick={() => navigate('/')}
+            className="flex items-center gap-1 text-gray-400 hover:text-gray-700 transition-colors cursor-pointer mr-1"
+            title="Back to home"
+          >
+            <ChevronLeft size={16} />
+          </button>
           <div className="flex items-center gap-2.5">
             <div className="w-45 h-7 rounded-md flex items-center justify-center">
               <img src="cvforge_logo_v2.svg" alt="Italian Trulli"/>

@@ -101,7 +101,7 @@ function ExecSection({ title, accent, children }: { title: string; accent: strin
     <div style={{ marginBottom: '24px' }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '12px' }}>
         <h2 style={{ fontSize: '13px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.1em', margin: 0, whiteSpace: 'nowrap', color: '#000' }}>{title}</h2>
-        <div style={{ flex: 1, height: '2px', background: accent }} />
+        <div style={{ flex: 1, height: '2px', background: accent, printColorAdjust: 'exact', WebkitPrintColorAdjust: 'exact' } as React.CSSProperties} />
       </div>
       {children}
     </div>
