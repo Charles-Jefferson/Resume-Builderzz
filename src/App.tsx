@@ -9,7 +9,7 @@ import { ResumePreview } from '@/components/preview/ResumePreview'
 import { ThemePicker } from '@/components/preview/ThemePicker'
 import { Button } from '@/components/ui/button'
 import { ToastContainer, useToast } from '@/components/ui/toast'
-import { exportHTML } from '@/components/export/ExportHTML'
+// import { exportHTML } from '@/components/export/ExportHTML'
 import { exportPDF } from '@/components/export/ExportPDF'
 
 const STEPS = [
@@ -46,10 +46,10 @@ export default function App() {
       <header className="no-print bg-white border-b border-gray-200 sticky top-0 z-40 shadow-sm">
         <div className="max-w-screen-xl mx-auto px-4 h-14 flex items-center gap-4">
           <div className="flex items-center gap-2.5">
-            <div className="w-7 h-7 bg-[#A41034] rounded-md flex items-center justify-center">
-              <FileDown size={15} className="text-white" />
+            <div className="w-45 h-7 rounded-md flex items-center justify-center">
+              <img src="cvforge_logo_v2.svg" alt="Italian Trulli"/>
             </div>
-            <span className="font-semibold text-gray-900 text-sm">Resume Builder</span>
+            {/* <span className="font-semibold text-gray-900 text-sm">CV Forge</span> */}
           </div>
 
           <div className="flex-1" />
@@ -61,7 +61,7 @@ export default function App() {
           </div>
 
           <div className="flex items-center gap-2">
-            <Button
+            {/* <Button
               variant="outline"
               size="sm"
               onClick={() => exportHTML(state.personal.name)}
@@ -69,7 +69,7 @@ export default function App() {
             >
               <FileDown size={14} />
               <span className="hidden sm:inline">HTML</span>
-            </Button>
+            </Button> */}
             <Button
               variant="default"
               size="sm"
@@ -91,9 +91,9 @@ export default function App() {
       </header>
 
       {/* Main layout */}
-      <div className="flex-1 max-w-screen-xl mx-auto w-full lg:grid lg:grid-cols-2 lg:gap-0">
+      <div className="flex-1 w-full lg:flex lg:gap-0">
         {/* Left — form */}
-        <div className="no-print lg:border-r border-gray-200 lg:overflow-y-auto lg:sticky lg:top-14 lg:h-[calc(100vh-3.5rem)]">
+        <div className="no-print lg:border-r border-gray-200 lg:overflow-y-auto lg:sticky lg:top-14 lg:h-[850px] lg:w-full">
           {/* Step tabs */}
           <div className="bg-white border-b border-gray-200 px-4">
             <div className="flex gap-0">
@@ -186,11 +186,11 @@ export default function App() {
         </div>
 
         {/* Right — preview (desktop) */}
-        <div className="hidden lg:block lg:overflow-y-auto lg:sticky lg:top-14 lg:h-[calc(100vh-3.5rem)] bg-gray-200">
+        <div className="hidden lg:block lg:overflow-y-auto lg:sticky lg:top-14 lg:h-full lg:w-full bg-gray-200">
           {/* Theme picker in preview panel */}
-          <div className="bg-gray-100 border-b border-gray-200 px-4 py-2">
+          <div className="bg-gray-100 border-b border-gray-200 px-4 py-2 h-[46px]">
             <div className="flex items-center justify-between gap-2 flex-wrap">
-              <span className="text-xs text-gray-500 font-medium uppercase tracking-wide">Preview</span>
+              <span className="text-xs text-gray-500 font-medium uppercase tracking-wide pt-1.5 ">Preview</span>
               <div className="lg:hidden">
                 <ThemePicker current={state.theme} onChange={setTheme} />
               </div>

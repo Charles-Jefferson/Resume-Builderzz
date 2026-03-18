@@ -1,0 +1,39 @@
+<svg width="100%" viewBox="0 0 680 240" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- ANVIL ICON -->
+  <!-- Anvil top face (wide flat surface) -->
+  <rect x="42" y="88" width="130" height="28" rx="5" fill="#A41034" style="fill:rgb(164, 16, 52);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Anvil body (narrower block) -->
+  <rect x="66" y="116" width="82" height="52" rx="4" fill="#000000" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Anvil horn (pointed left side) -->
+  <polygon points="42,88 66,88 66,102" fill="#7a0c26" style="fill:rgb(122, 12, 38);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Anvil base feet -->
+  <rect x="58" y="168" width="26" height="10" rx="3" fill="#000000" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="130" y="168" width="26" height="10" rx="3" fill="#000000" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- HAMMER -->
+  <!-- Handle -->
+  <rect x="148" y="52" width="10" height="58" rx="4" fill="#808285" transform="rotate(-35 153 80)" style="fill:rgb(128, 130, 133);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Hammer head -->
+  <rect x="118" y="36" width="42" height="22" rx="5" fill="#A41034" transform="rotate(-35 139 47)" style="fill:rgb(164, 16, 52);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Spark dots radiating from strike point -->
+  <circle cx="112" cy="82" r="3.5" fill="#A41034" opacity="0.9" style="fill:rgb(164, 16, 52);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.9;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="100" cy="72" r="2.5" fill="#A41034" opacity="0.7" style="fill:rgb(164, 16, 52);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="122" cy="68" r="2" fill="#A41034" opacity="0.6" style="fill:rgb(164, 16, 52);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="94" cy="86" r="2" fill="#B6B6B6" opacity="0.8" style="fill:rgb(182, 182, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.8;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="108" cy="62" r="1.5" fill="#B6B6B6" opacity="0.5" style="fill:rgb(182, 182, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="130" cy="60" r="1.5" fill="#A41034" opacity="0.5" style="fill:rgb(164, 16, 52);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- WORDMARK -->
+  <text x="198" y="152" font-family="'Arial Black', 'Helvetica Neue', Arial, sans-serif" font-size="88" font-weight="900" letter-spacing="-2" fill="#A41034" style="fill:rgb(164, 16, 52);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Black&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:88px;font-weight:900;text-anchor:start;dominant-baseline:auto">Cv</text>
+
+  <text x="318" y="152" font-family="'Arial Black', 'Helvetica Neue', Arial, sans-serif" font-size="88" font-weight="900" letter-spacing="-2" fill="#000000" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Arial Black&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:88px;font-weight:900;text-anchor:start;dominant-baseline:auto">Forge</text>
+
+  <!-- Tagline -->
+  <text x="199" y="180" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" letter-spacing="4.5" fill="#808285" style="fill:rgb(128, 130, 133);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Helvetica Neue&quot;, Arial, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">BUILD · POLISH · EXPORT</text>
+
+  <!-- Thin crimson rule under tagline -->
+  <rect x="199" y="190" width="452" height="3" rx="1.5" fill="#A41034" style="fill:rgb(164, 16, 52);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+</svg>

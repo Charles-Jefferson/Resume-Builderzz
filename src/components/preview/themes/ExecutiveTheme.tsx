@@ -9,7 +9,7 @@ export function ExecutiveTheme({ data }: Props) {
   return (
     <div style={{ fontFamily: 'Georgia, "Times New Roman", serif', color: '#000', background: '#fff', fontSize: '13px', lineHeight: 1.55 }}>
       {/* Dark header bar */}
-      <div style={{ background: '#000', color: '#fff', padding: '32px 48px 24px', textAlign: 'center' }}>
+      <div style={{ background: '#000', color: '#fff', padding: '32px 48px 24px', textAlign: 'center', printColorAdjust: 'exact', WebkitPrintColorAdjust: 'exact' } as React.CSSProperties}>
         <h1 style={{ fontSize: '30px', fontWeight: 700, margin: '0 0 6px', letterSpacing: '0.04em', textTransform: 'uppercase' }}>{personal.name || 'Your Name'}</h1>
         {personal.title && <p style={{ color: accent, fontSize: '13px', margin: '0 0 12px', letterSpacing: '0.1em', textTransform: 'uppercase', fontFamily: 'Arial, sans-serif' }}>{personal.title}</p>}
         <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', fontSize: '11px', color: '#ccc', fontFamily: 'Arial, sans-serif', flexWrap: 'wrap' }}>

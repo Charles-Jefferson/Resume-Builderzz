@@ -8,9 +8,9 @@ export function ModernTheme({ data }: Props) {
   const gray = '#808285'
 
   return (
-    <div style={{ fontFamily: "'Segoe UI', Arial, sans-serif", color: '#111', background: '#fff', display: 'flex', fontSize: '13px', lineHeight: 1.55, minHeight: '100%' }}>
+    <div style={{ fontFamily: "'Segoe UI', Arial, sans-serif", color: '#111', background: '#fff', display: 'flex', fontSize: '13px', lineHeight: 4.75, minHeight: '100%' }}>
       {/* Sidebar */}
-      <div style={{ width: '220px', background: '#1a1a2e', color: '#e0e0e0', padding: '32px 20px', flexShrink: 0 }}>
+      <div style={{ width: '220px', background: '#1a1a2e', color: '#e0e0e0', padding: '32px 20px', flexShrink: 0, printColorAdjust: 'exact', WebkitPrintColorAdjust: 'exact' } as React.CSSProperties}>
         <div style={{ marginBottom: '24px' }}>
           <h1 style={{ fontSize: '20px', fontWeight: 700, color: '#fff', margin: '0 0 4px', lineHeight: 1.2 }}>{personal.name || 'Your Name'}</h1>
           <p style={{ color: accent, fontSize: '12px', fontWeight: 600, margin: 0, textTransform: 'uppercase', letterSpacing: '0.05em' }}>{personal.title}</p>
